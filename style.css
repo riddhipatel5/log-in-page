@@ -1,0 +1,55 @@
+body{
+    background: url("background img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-shadow: 3px 3px 4px rgb(106, 224, 233);
+}
+div{
+    width: 500px;
+    height: 470px;
+    border: 3px solid rgb(0, 8, 109);
+    margin: auto;
+    padding: 50px ;
+    box-sizing: border-box;
+}
+img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+.uname{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(52, 118, 206);
+    color: white;
+    font-size: 18px;
+}
+button:hover {
+    background-color: rgb(26, 65, 192);
+    cursor: pointer;
+}
+input[type=text]:hover {
+     box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+input[type=password]:hover {
+    box-sizing: border-box;
+   border: 2px solid red;
+   border-radius: 4px;
+}
+input[type=checkbox] {
+    width: 17px;
+    height: 17px;
+}
+.text{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
